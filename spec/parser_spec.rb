@@ -1,4 +1,4 @@
-require_relative '../src/parser'
+require_relative '../lib/parser'
 
 describe Parser do
     context "when file does not exist" do
