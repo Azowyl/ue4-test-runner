@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+ - 2.7
+
+jobs:
+  include:
+    - stage: install dependencies
+      script: bundle install
+    - stage: test
+      script: rspec
