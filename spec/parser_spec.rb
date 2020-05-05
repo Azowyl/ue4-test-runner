@@ -9,7 +9,7 @@ describe Parser do
 
     context "when file exists" do
         it "doesn't raise error" do
-            expect{Parser.new('fixtures/test.json')}.to_not raise_error ArgumentError
+            expect{Parser.new('fixtures/test.json')}.not_to raise_error ArgumentError
         end
     end
 end
