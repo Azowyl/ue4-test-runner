@@ -1,5 +1,5 @@
 class Parser
-    def initialize(file_name)
+    def self.parse(file_name)
         File.open(file_name)
     end
 end
