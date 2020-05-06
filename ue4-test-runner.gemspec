@@ -8,5 +8,4 @@ Gem::Specification.new do |s|
   s.homepage  = 'http://rubygems.org/gems/ue4-test-runner'
   s.files     = Dir.glob("{lib,bin}/**/*")
   s.require_path = 'lib'
-  s.executables = ['ue4-test-runner']
 end

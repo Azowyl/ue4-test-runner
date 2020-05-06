@@ -1,5 +1,14 @@
 language: ruby
 rvm:
- - 2.7
-
-script: bundle exec rake spec
+- 2.7
+jobs:
+  include:
+  - stage: test
+    script: bundle exec rake spec
+deploy:
+  provider: rubygems
+  api_key:
+    secure: gxdGlw+bhap+FbFPih8v8xfIwndZBvsfSjbQo3U9y4JKeWNwIrULBKBP8pKhu1cFnzXZIxaOvLiNUJKSL6Lk+npcxBByFQ1FpDJFAw6paUc8mzxRO1co9Nb3OIfl+btyr9kekXIQTUpuLiSqAmp4dwrfRfhpEVR4Eg+KkNXYI8oL1vMUoe6Vaww1Mirc4m4SoYgKYllinc6ki/P/YtiqVR9dSBNhgpbde7l5LMZUBx4ohkoik+Xy8/HsNMMhjrdsgVVOUOiZzhoHJEO0dTyBrfpXXh94CyXKM4uq8fwtPMMbcpCOdr9eeCh8ASXyC1fuYfe7CubPgu/K77+G5fYUQ/mbpMX4m7tMMrlZ2EWElMqcLhTFhPnHTa/OzhY3oweWZmBTV3PLF6ZmKX825R58L99X7xcsqDI+0LQB78IBkZ4aREZ7JG6W1Cmy/BjCd1+eqJsQFnRYQkqkD657lE1ZtW/aIMMUCDzysKaD1UPx93Hon+3v2o8X1Dj3IOqF9sq1vwQrb40V7l8E2pKxZ3BUgZZLUqEO1w8xNfROATlW22yrHwihtaqQ8l4XHA280eyPqK1ZS3J8V5cRrcNBQOstzSYbReY4vRbs4TY2vq3RHNlUuP8ZfnbQbgCTQSnIWUWUHrmdw6Bwc3lQpURodYkgaFJIIuE15FL+eUekli7CcnM=
+  gemspec: ue4-test-runner.gemspec
+  on:
+    tags: true
