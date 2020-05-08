@@ -1,5 +1,4 @@
-module UE4TestRunner
-    def run
-        puts "Running tests..."
-    end
-end
+require_relative '../src/runner'
+include UE4TestRunner
+
+UE4TestRunner::run()
