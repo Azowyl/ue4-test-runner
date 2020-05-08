@@ -19,15 +19,19 @@ describe Parser do
       context "when there is a successful test" do
         let(:tests) {Parser.parse(File.absolute_path('spec/fixtures/successful.json'))}
 
-        it "creates SuccessfulTest " do
+        it "creates a SuccessfulTest " do
           expect(tests.first.success?).to eq true
+        end
+
+        it "parses the test name" do
+          expect(tests.first.name).to eq "successful test"
         end
       end
 
       context "when there is a failed test" do
         let(:tests) {Parser.parse(File.absolute_path('spec/fixtures/failed.json'))}
 
-        it "creates FailedTest " do
+        it "creates a FailedTest " do
           expect(tests.first.success?).to eq false
         end
       end
