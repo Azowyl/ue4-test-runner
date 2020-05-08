@@ -34,6 +34,10 @@ describe Parser do
         it "creates a FailedTest " do
           expect(tests.first.success?).to eq false
         end
+
+        it "parses the test name" do
+          expect(tests.first.name).to eq "failed test"
+        end
       end
     end
 end

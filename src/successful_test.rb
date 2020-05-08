@@ -1,9 +1,7 @@
-class SuccessfulTest
+require_relative 'base_test'
+
+class SuccessfulTest < BaseTest
   def success?
     true
-  end
-
-  def name
-    "successful test"
   end
 end
