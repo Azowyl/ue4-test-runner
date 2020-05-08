@@ -10,7 +10,7 @@ class FailedTest < BaseTest
   end
 
   def pretty
-    message = "#{BASE_MESSAGE} -> #{name} \n"
+    message = super
     entries.each {|entry| message << entry.pretty}
     message
   end

@@ -27,6 +27,10 @@ describe Parser do
         it "parses the test name" do
           expect(tests.first.name).to eq "successful test"
         end
+
+        it "ignores info entries" do
+          expect(tests.first.pretty).to_not include "Info"
+        end
       end
 
       context "when there is a failed test" do
