@@ -1,6 +1,7 @@
 require_relative '../src/parser'
 require_relative '../src/successful_test'
-require_relative '../src/../src/failed_test'
+require_relative '../src/failed_test'
+require_relative '../src/test_entry'
 
 describe Parser do
     context 'when file does not exist' do
@@ -37,6 +38,13 @@ describe Parser do
 
         it "parses the test name" do
           expect(tests.first.name).to eq "failed test"
+        end
+
+        it "parses each error entry" do
+          expect(tests.first.pretty).to include "failed test"
+          expect(tests.first.pretty).to include "Test Failed"
+          expect(tests.first.pretty).to include "some_filename"
+          expect(tests.first.pretty).to include "3" # line number
         end
       end
     end
