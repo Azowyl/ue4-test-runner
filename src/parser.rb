@@ -5,13 +5,14 @@ class Parser
     SUCCESS_STATE = "Success"
 
     def self.parse(file_name)
-        tests_results = JSON.parse(File.read(file_name))["tests"]
+        results = JSON.parse(File.read(file_name))
+        tests_results = results["tests"]
         tests = tests_results.map do |test|
             test_name = test["testDisplayName"]
             entries = test["entries"].map{|entry| TestEntry.new(entry)}
             test["state"] == SUCCESS_STATE ? SuccessfulTest.new(test_name, entries) : FailedTest.new(test_name, entries)
         end
-        tests << FinalTest.new
+        tests << FinalTest.new(results)
         tests
     end
 end

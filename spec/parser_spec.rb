@@ -54,10 +54,22 @@ describe Parser do
       end
 
       context "last test" do
-        let(:tests) {Parser.parse(File.absolute_path('spec/fixtures/failed.json'))}
+        let(:last) {Parser.parse(File.absolute_path('spec/fixtures/failed.json')).last}
 
         it "is successful" do
-          expect(tests.last.success?).to eq true
+          expect(last.success?).to eq true
+        end
+
+        it "includes total test" do
+          expect(last.pretty).to include "1"
+        end
+
+        it "includes total successful test" do
+          expect(last.pretty).to include "1"
+        end
+
+        it "includes total failed test" do
+          expect(last.pretty).to include "0"
         end
       end
     end
