@@ -2,6 +2,7 @@ require_relative '../src/parser'
 require_relative '../src/successful_test'
 require_relative '../src/failed_test'
 require_relative '../src/test_entry'
+require_relative '../src/final_test'
 
 describe Parser do
     context 'when file does not exist' do
@@ -49,6 +50,14 @@ describe Parser do
           expect(tests.first.pretty).to include "Test Failed"
           expect(tests.first.pretty).to include "some_filename"
           expect(tests.first.pretty).to include "3" # line number
+        end
+      end
+
+      context "last test" do
+        let(:tests) {Parser.parse(File.absolute_path('spec/fixtures/failed.json'))}
+
+        it "is successful" do
+          expect(tests.last.success?).to eq true
         end
       end
     end
