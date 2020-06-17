@@ -1,7 +1,7 @@
 require_relative './parser'
 
 module UE4TestRunner
-  UE4_ROOT = "A:/Games/UE_4.23"
+  UE4_ROOT = "A:/Games/UE_4.24"
   EXECUTABLE_LOCATION = "/Engine/Binaries/Win64/UE4Editor-Cmd.exe"
   FLAGS = '-unattended -nopause -NullRHI -testexit="Automation Test Queue Empty" -log -log=RunTests.log'
   MISSING_FILE_ERROR_MESSAGE = "File does not exists D:"
