@@ -4,12 +4,17 @@ module UE4TestRunner
   UE4_ROOT = "A:/Games/UE_4.23"
   EXECUTABLE_LOCATION = "/Engine/Binaries/Win64/UE4Editor-Cmd.exe"
   FLAGS = '-unattended -nopause -NullRHI -testexit="Automation Test Queue Empty" -log -log=RunTests.log'
+  MISSING_FILE_ERROR_MESSAGE = "File does not exists D:"
 
   def run
     puts "Running tests..."
     system(build_command)
 
-    tests = Parser::parse("#{current_directory}/index.json")
+    file_name = "#{current_directory}/index.json"
+
+    puts "#{file_name}: #{MISSING_FILE_ERROR_MESSAGE}" and return unless File.file?(file_name)
+
+    tests = Parser::parse(file_name)
     tests.each {|test| puts test.pretty}
   end
 
@@ -36,4 +41,5 @@ module UE4TestRunner
   def current_directory
     File.expand_path(File.dirname(__FILE__))
   end
+
 end
