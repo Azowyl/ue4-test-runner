@@ -16,6 +16,8 @@ module UE4TestRunner
 
     tests = Parser::parse(file_name)
     tests.each {|test| puts test.pretty}
+
+    File.delete(file_name)
   end
 
   def build_command
