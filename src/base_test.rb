@@ -10,6 +10,6 @@ class BaseTest
   end
 
   def pretty
-    "#{BASE_MESSAGE} -> #{name} \n"
+    "#{self.class::BASE_MESSAGE} -> #{name} \n"
   end
 end

@@ -11,9 +11,9 @@ class FinalTest
   end
 
   def pretty
-    "Total run: #{@data[:succeeded] + @data[:failed] + @data[:notRun]} \n" +
+    "\nTotal run: #{@data[:succeeded] + @data[:failed] + @data[:notRun]} \n" +
     "#{"Succeeded".green}: #{@data[:succeeded]} \n" +
-    "#{"Failed".red}: #{@data[:failed"]} \n" +
+    "#{"Failed".red}: #{@data[:failed]} \n" +
     "#{"Not run".white}: #{@data[:notRun]} \n" +
     "#{"Total Time"}: #{@data[:totalDuration]} \n"
   end

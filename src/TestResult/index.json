@@ -1,0 +1,1087 @@
+﻿{
+	"clientDescriptor": "//UE4/Release-4.24 - 11590370 - Windows",
+	"reportCreatedOn": "2020.07.10-18.30.18",
+	"succeeded": 3,
+	"succeededWithWarnings": 0,
+	"failed": 0,
+	"notRun": 0,
+	"totalDuration": 7.5938916206359863,
+	"comparisonExported": true,
+	"comparisonExportDirectory": "A:/dev/ue4-test-runner/src/TestResult/11590370",
+	"tests": [
+		{
+			"testDisplayName": "turns on",
+			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when all are active.turns on",
+			"state": "Success",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Mixer Platform Settings:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tSample Rate:\t\t\t\t\t\t  48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size Requested: 1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size To Use:\t  1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of buffers to queue:\t\t\t  2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tMax Channels (voices):\t\t\t\t  32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of Async Source Workers:\t\t  0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "AudioDevice MaxSources: 32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using built-in audio occlusion.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Initializing audio mixer.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device Output Speaker Info:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Is Default: Yes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Sample Rate: 48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Count Used: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Device Channel Count: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Order:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "0: FrontLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "1: FrontRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "2: FrontCenter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "3: LowFrequency",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "4: BackLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "5: BackRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "6: SideLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "7: SideRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using Audio Device Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.15"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Shutting down PIE online subsystems",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.15"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.15"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "doesn't activate again",
+			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when all are active.when absorbing.doesn't activate again",
+			"state": "Success",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Mixer Platform Settings:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tSample Rate:\t\t\t\t\t\t  48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size Requested: 1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size To Use:\t  1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of buffers to queue:\t\t\t  2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tMax Channels (voices):\t\t\t\t  32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of Async Source Workers:\t\t  0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "AudioDevice MaxSources: 32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using built-in audio occlusion.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Initializing audio mixer.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device Output Speaker Info:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Is Default: Yes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Sample Rate: 48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Count Used: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Device Channel Count: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Order:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "0: FrontLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "1: FrontRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "2: FrontCenter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "3: LowFrequency",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "4: BackLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "5: BackRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "6: SideLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "7: SideRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.09"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using Audio Device Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.10"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.12"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Shutting down PIE online subsystems",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.12"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.12"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "doesn't turn on",
+			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when not all are active.doesn't turn on",
+			"state": "Success",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Mixer Platform Settings:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tSample Rate:\t\t\t\t\t\t  48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size Requested: 1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size To Use:\t  1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of buffers to queue:\t\t\t  2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tMax Channels (voices):\t\t\t\t  32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of Async Source Workers:\t\t  0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "AudioDevice MaxSources: 32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using built-in audio occlusion.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Initializing audio mixer.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device Output Speaker Info:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Is Default: Yes",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Sample Rate: 48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Count Used: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Device Channel Count: 8",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Channel Order:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "0: FrontLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "1: FrontRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "2: FrontCenter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "3: LowFrequency",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "4: BackLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "5: BackRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "6: SideLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "7: SideRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using Audio Device Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.16"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.17"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Shutting down PIE online subsystems",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.17"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "No commands were queued while flushing the source manager.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2020.07.10-21.30.17"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

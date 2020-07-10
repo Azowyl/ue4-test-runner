@@ -1,25 +1,24 @@
 require_relative './parser'
+require 'fileutils'
 
 module UE4TestRunner
   UE4_ROOT = "A:\\Games\\UE_4.24"
   EXECUTABLE_LOCATION = "\\Engine\\Binaries\\Win64\\UE4Editor-Cmd.exe"
-  FLAGS = '-unattended -nopause -NullRHI -testexit="Automation Test Queue Empty" -log -log=RunTests.log'
+  FLAGS = '-unattended -silent -nopause -NullRHI -testexit="Automation Test Queue Empty" -log -log=RunTests.log'
   MISSING_FILE_ERROR_MESSAGE = "File does not exists D:"
   TEST_RESULT_DIR = 'TestResult'
 
   def run
     puts "Running tests..."
-    system(build_command)
+    system(build_command, :out => File::NULL)
     file_name = "#{current_directory}\\#{TEST_RESULT_DIR}\\index.json"
 
     puts "#{file_name}: #{MISSING_FILE_ERROR_MESSAGE}" and return unless File.file?(file_name)
 
     tests = Parser::parse(file_name)
-    puts tests
-    return
     tests.each {|test| puts test.pretty}
 
-    File.delete(file_name)
+    FileUtils.rm_rf("#{current_directory}#{TEST_RESULT_DIR}")
   end
 
   def build_command
