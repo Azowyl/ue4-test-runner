@@ -1,7 +1,7 @@
 class TestEntry
   def initialize(data)
     @data = data
-    @event = data["event"]
+    @event = data["event"] || {}
   end
 
   def pretty

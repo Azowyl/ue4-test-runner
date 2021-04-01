@@ -1,19 +1,91 @@
 ﻿{
-	"clientDescriptor": "//UE4/Release-4.24 - 11590370 - Windows",
-	"reportCreatedOn": "2020.07.10-18.30.18",
-	"succeeded": 3,
-	"succeededWithWarnings": 0,
+	"clientDescriptor": "//UE4/Release-4.26 - 15228867 - Windows",
+	"reportCreatedOn": "2021.04.01-18.07.58",
+	"succeeded": 2,
+	"succeededWithWarnings": 1,
 	"failed": 0,
 	"notRun": 0,
-	"totalDuration": 7.5938916206359863,
+	"totalDuration": 9.6234989166259766,
 	"comparisonExported": true,
-	"comparisonExportDirectory": "A:/dev/ue4-test-runner/src/TestResult/11590370",
+	"comparisonExportDirectory": "A:/dev/ue4-test-runner/lib/TestResult/15228867",
 	"tests": [
 		{
-			"testDisplayName": "turns on",
-			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when all are active.turns on",
+			"testDisplayName": "disables input in order to play cinematic",
+			"fullTestPath": "ARedemptionTale.Tests.Maps.Prologue.when starting.disables input in order to play cinematic",
 			"state": "Success",
 			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device unregistered from world 'None'.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.49"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Asset '../../../../Projects/ARedemptionTale/Content/MSPresets/MSTextures/Albedo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.49"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Asset '../../../../Projects/ARedemptionTale/Content/MSPresets/MSTextures/Normal.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.49"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "Asset '../../../../Projects/ARedemptionTale/Content/MSPresets/MSTextures/Roughness.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.49"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device (ID: 1) registered with world 'Prologue'.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.50"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
 				{
 					"event":
 					{
@@ -24,7 +96,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -36,7 +108,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -48,7 +120,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -60,7 +132,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -72,7 +144,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -84,7 +156,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -96,7 +168,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -108,7 +180,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -120,7 +192,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -132,91 +204,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Audio Device Output Speaker Info:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Is Default: Yes",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Sample Rate: 48000",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Count Used: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Device Channel Count: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Order:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -228,7 +216,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -240,7 +228,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -252,7 +240,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -264,7 +252,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -276,7 +264,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -288,7 +276,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -300,7 +288,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -312,7 +300,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -324,19 +312,127 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.13"
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
+						"message": "Initializing Sound Submixes...",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.15"
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterReverbSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterEQSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Output buffers initialized: Frames=1024, Channels=8, Samples=8192",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Starting AudioMixerPlatformInterface::RunInternal()",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "FMixerPlatformXAudio2::SubmitBuffer() called for the first time",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device (ID: 2) registered with world 'Prologue'.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.51"
 				},
 				{
 					"event":
@@ -348,19 +444,401 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.15"
-				},
+					"timestamp": "2021.04.01-21.07.55"
+				}
+			],
+			"warnings": 3,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "places Kara at PlayerStart actor location",
+			"fullTestPath": "ARedemptionTale.Tests.Maps.Prologue.when starting.places Kara at PlayerStart actor location",
+			"state": "Success",
+			"entries": [
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
+						"message": "Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.15"
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Mixer Platform Settings:",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tSample Rate:\t\t\t\t\t\t  48000",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size Requested: 1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tCallback Buffer Frame Size To Use:\t  1024",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of buffers to queue:\t\t\t  2",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tMax Channels (voices):\t\t\t\t  32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "\tNumber of Async Source Workers:\t\t  0",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "AudioDevice MaxSources: 32",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using built-in audio occlusion.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Initializing audio mixer.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "0: FrontLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "1: FrontRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "2: FrontCenter",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "3: LowFrequency",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "4: BackLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "5: BackRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "6: SideLeft",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "7: SideRight",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Using Audio Device Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Initializing Sound Submixes...",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterReverbSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Master Submix 'MasterEQSubmixDefault'",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Output buffers initialized: Frames=1024, Channels=8, Samples=8192",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Starting AudioMixerPlatformInterface::RunInternal()",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "FMixerPlatformXAudio2::SubmitBuffer() called for the first time",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device (ID: 3) registered with world 'Prologue'.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.55"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Shutting down PIE online subsystems",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.56"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Audio Device unregistered from world 'None'.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.56"
 				}
 			],
 			"warnings": 0,
@@ -368,10 +846,22 @@
 			"artifacts": []
 		},
 		{
-			"testDisplayName": "doesn't activate again",
-			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when all are active.when absorbing.doesn't activate again",
+			"testDisplayName": "plays initial cinematic",
+			"fullTestPath": "ARedemptionTale.Tests.Maps.Prologue.when starting.plays initial cinematic",
 			"state": "Success",
 			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": 0,
+					"timestamp": "2021.04.01-21.07.57"
+				},
 				{
 					"event":
 					{
@@ -382,7 +872,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -394,7 +884,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -406,7 +896,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -418,7 +908,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -430,7 +920,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -442,7 +932,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -454,7 +944,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -466,7 +956,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -478,7 +968,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -490,91 +980,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Audio Device Output Speaker Info:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Is Default: Yes",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Sample Rate: 48000",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Count Used: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Device Channel Count: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Order:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -586,7 +992,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -598,7 +1004,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -610,7 +1016,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -622,7 +1028,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -634,7 +1040,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -646,7 +1052,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -658,7 +1064,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -670,7 +1076,7 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.09"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -682,377 +1088,127 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.10"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
+						"message": "Initializing Sound Submixes...",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.12"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "Shutting down PIE online subsystems",
+						"message": "Creating Master Submix 'MasterSubmixDefault'",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.12"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
+						"message": "Creating Master Submix 'MasterReverbSubmixDefault'",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.12"
-				}
-			],
-			"warnings": 0,
-			"errors": 0,
-			"artifacts": []
-		},
-		{
-			"testDisplayName": "doesn't turn on",
-			"fullTestPath": "Project1.Tests.Actors.Torch.Triggers.when has triggers.when not all are active.doesn't turn on",
-			"state": "Success",
-			"entries": [
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Audio Mixer Platform Settings:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tSample Rate:\t\t\t\t\t\t  48000",
+						"message": "Creating Master Submix 'MasterEQSubmixDefault'",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tCallback Buffer Frame Size Requested: 1024",
+						"message": "Output buffers initialized: Frames=1024, Channels=8, Samples=8192",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tCallback Buffer Frame Size To Use:\t  1024",
+						"message": "Starting AudioMixerPlatformInterface::RunInternal()",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tNumber of buffers to queue:\t\t\t  2",
+						"message": "FMixerPlatformXAudio2::SubmitBuffer() called for the first time",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tMax Channels (voices):\t\t\t\t  32",
+						"message": "Audio Device (ID: 4) registered with world 'Prologue'.",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "\tNumber of Async Source Workers:\t\t  0",
+						"message": "Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "AudioDevice MaxSources: 32",
+						"message": "Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Using built-in audio occlusion.",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Initializing audio mixer.",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Audio Device Output Speaker Info:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Name: Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Is Default: Yes",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Sample Rate: 48000",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Count Used: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Device Channel Count: 8",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Channel Order:",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "0: FrontLeft",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "1: FrontRight",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "2: FrontCenter",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "3: LowFrequency",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "4: BackLeft",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "5: BackRight",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "6: SideLeft",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "7: SideRight",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "Using Audio Device Headset Earphone (Corsair VOID PRO USB Gaming Headset)",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.16"
-				},
-				{
-					"event":
-					{
-						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
-						"context": "",
-						"artifact": "00000000000000000000000000000000"
-					},
-					"filename": "",
-					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.17"
+					"timestamp": "2021.04.01-21.07.57"
 				},
 				{
 					"event":
@@ -1064,19 +1220,19 @@
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.17"
+					"timestamp": "2021.04.01-21.07.58"
 				},
 				{
 					"event":
 					{
 						"type": "Info",
-						"message": "No commands were queued while flushing the source manager.",
+						"message": "Audio Device unregistered from world 'None'.",
 						"context": "",
 						"artifact": "00000000000000000000000000000000"
 					},
 					"filename": "",
 					"lineNumber": 0,
-					"timestamp": "2020.07.10-21.30.17"
+					"timestamp": "2021.04.01-21.07.58"
 				}
 			],
 			"warnings": 0,

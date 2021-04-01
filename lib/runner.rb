@@ -2,23 +2,28 @@ require_relative './parser'
 require 'fileutils'
 
 module UE4TestRunner
-  UE4_ROOT = "A:\\Games\\UE_4.24"
+  UE4_ROOT = "D:\\UE_4.26"
   EXECUTABLE_LOCATION = "\\Engine\\Binaries\\Win64\\UE4Editor-Cmd.exe"
   FLAGS = '-unattended -silent -nopause -NullRHI -testexit="Automation Test Queue Empty" -log -log=RunTests.log'
   MISSING_FILE_ERROR_MESSAGE = "File does not exists D:"
+  MISSING_PROJECT_FILE_ERROR_MESSAGE = "uproject file does not exists D: make sure you're in the ue4 project root directory"
   TEST_RESULT_DIR = 'TestResult'
 
   def run
-    puts "Running tests..."
-    system(build_command, :out => File::NULL)
-    file_name = "#{current_directory}\\#{TEST_RESULT_DIR}\\index.json"
+    begin
+        puts "Running tests..."
+        system(build_command, :out => File::NULL)
+        file_name = "#{current_directory}\\#{TEST_RESULT_DIR}\\index.json"
 
-    puts "#{file_name}: #{MISSING_FILE_ERROR_MESSAGE}" and return unless File.file?(file_name)
+        puts "#{file_name}: #{MISSING_FILE_ERROR_MESSAGE}" and return unless File.file?(file_name)
 
-    tests = Parser::parse(file_name)
-    tests.each {|test| puts test.pretty}
+        tests = Parser::parse(file_name)
+        tests.each {|test| puts test.pretty}
 
-    FileUtils.rm_rf("#{current_directory}#{TEST_RESULT_DIR}")
+        FileUtils.rm_rf("#{current_directory}#{TEST_RESULT_DIR}")
+    rescue RuntimeError => error
+        puts error
+    end
   end
 
   def build_command
@@ -27,6 +32,7 @@ module UE4TestRunner
 
   def project_file_path
     file = Dir.entries(".").select {|file_name| file_name.include?('.uproject')}.first
+    raise MISSING_PROJECT_FILE_ERROR_MESSAGE if file.nil?
     File.expand_path(file, File.dirname(file))
   end
 
